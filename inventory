@@ -1,0 +1,12 @@
+[qa]
+hostname=database
+hostane=web 
+
+[prod]
+hostname=
+
+[test]
+hostname=
+
+[qa:vars]
+ansible_python_interpreter=/usr/bin/python3

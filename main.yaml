@@ -1,0 +1,6 @@
+- hosts: qa
+  # become: yes
+  become_user: root
+
+  roles:
+    - { role: 'usercreate', tags: 'usercreate' }
